@@ -33,6 +33,8 @@ Para executar o projeto corretamente, é recomendável baixar apenas a pasta **`
 4. **Adicione o MySQL Connector/J (versão 9.2.0) como biblioteca no projeto.**
 5. **Compile e execute o sistema.**
 
+**Observação:** O *JFrame Form* `frmLoginVIEW` deve ser o primeira a ser inicializado e, também, o *Usuário* será o CPF de um funcionário.
+
 ## Por que utilizamos o padrão DAO?
 
 O padrão **Data Access Object (DAO)** foi escolhido para separar a lógica de persistência (acesso ao banco de dados) do restante da aplicação. Isso traz vários benefícios, como:
