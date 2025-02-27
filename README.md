@@ -27,7 +27,7 @@ Para executar o projeto corretamente, é recomendável baixar apenas a pasta **`
 1. **Abra a sua IDE de preferência (Eclipse, IntelliJ, NetBeans, etc.) e crie um projeto Java**
 2. **Importe a pasta `src` do projeto no GitHub e adicione ela na pasta do projeto criado, fazendo substituições caso seja necessário**
 3. **Configure o banco de dados MySQL:**
-   - Importe a pasta `bibliotecaBD` do projeto no GitHub para adquirir o script do banco de dados.
+   - Importe a pasta `Banco de Dados [Geral]` do projeto no GitHub para adquirir o script do banco de dados.
    - Execute o script SQL fornecido para criação das tabelas.
    - Não se esqueça de alterar o *user* e *password* em `ConexaoDAO`. 
 4. **Adicione o MySQL Connector/J (versão 9.2.0) como biblioteca no projeto.**
