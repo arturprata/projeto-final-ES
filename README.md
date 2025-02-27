@@ -14,20 +14,22 @@ Este projeto consiste na implementação de um **sistema de biblioteca** que per
 - **Realização de Empréstimos**
 - **Processamento de Devoluções**
 
+## Estrutura do Repositório
+
+O projeto está organizado em módulos seguindo as nomenclaturas e divisões propostas pelas *Issues* geradas nas *User Stories*. Cada seção do código corresponde a uma parte específica do sistema, permitindo um acesso mais intuitivo aos arquivos. Porém, para executar o projeto mais facilmente, é recomendável baixar apenas a pasta **`src`** e a pasta **`Banco de Dados [Geral]`**, onde estão os pacotes (já organizados para execução) e o *script* do banco de dados, respectivamente.
+
 ## Tecnologias Utilizadas
 
 - **Java JDK 23**
 - **MySQL 8.0.41**
 - **MySQL Connector/J 9.2.0**
 
-Para executar o projeto corretamente, é recomendável baixar apenas a pasta **`src`** e a pasta **`Banco de Dados [Geral]`**, onde os pacotes, já estão organizados para execução, e o *script* do banco de dados, respectivamente.
-
 ## Configuração do Ambiente
 
 1. **Abra a sua IDE de preferência (Eclipse, IntelliJ, NetBeans, etc.) e crie um projeto Java**
-2. **Importe a pasta `src` do projeto no GitHub e adicione ela na pasta do projeto criado, fazendo substituições caso seja necessário**
+2. **Baixe a pasta `src` do projeto no GitHub e adicione ela na pasta do projeto criado, fazendo substituições caso seja necessário**
 3. **Configure o banco de dados MySQL:**
-   - Importe a pasta `Banco de Dados [Geral]` do projeto no GitHub para adquirir o script do banco de dados.
+   - Baixe a pasta `Banco de Dados [Geral]` do projeto no GitHub para adquirir o script do banco de dados.
    - Execute o script SQL fornecido para criação das tabelas.
    - Não se esqueça de alterar o *user* e *password* em `ConexaoDAO`. 
 4. **Adicione o MySQL Connector/J (versão 9.2.0) como biblioteca no projeto.**
