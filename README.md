@@ -20,7 +20,7 @@ Este projeto consiste na implementação de um **sistema de biblioteca** que per
 - **MySQL 8.0.41**
 - **MySQL Connector/J 9.2.0**
 
-Para executar o projeto corretamente, é recomendável baixar apenas a pasta **`src`**, onde os pacotes já estão organizados para execução.
+Para executar o projeto corretamente, é recomendável baixar apenas a pasta **`src`** e a pasta **`Banco de Dados [Geral]`**, onde os pacotes, já estão organizados para execução, e o *script* do banco de dados, respectivamente.
 
 ## Configuração do Ambiente
 
